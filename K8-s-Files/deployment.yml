@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: atharva-deployment
+  name: pratik-deployment
   labels:
     first: app
 
@@ -20,8 +20,8 @@ spec:
 
     spec:
       containers:
-      - name: atharva-container
-        image: atharva7823/hospitalmanagement:v1
+      - name: pratik-container
+        image: pratikbhusari10/hospital:v1.0.0
 
         ports:
         - containerPort: 5000
