@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 
 metadata:
-  name: atharva-configmap
+  name: pratik-configmap
 
 data:
   APP_NAME: "Hospital-App"
