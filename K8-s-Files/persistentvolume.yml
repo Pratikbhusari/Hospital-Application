@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolume
 
 metadata:
-  name: atharva-pv
+  name: pratik-pv
 
 spec:
   capacity:
