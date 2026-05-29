@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 
 metadata:
-  name: atharva-pvc
+  name: pratik-pvc
 
 spec:
   accessModes:
