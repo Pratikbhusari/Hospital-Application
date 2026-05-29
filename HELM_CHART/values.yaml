@@ -1,24 +1,24 @@
 replicaCount: 2
 
 container:
-  name: atharva-container1
-  image: atharva7823/hospitalmanagement:v1
+  name: pratik-container
+  image: pratikbhusari10/hospital:v1.0.0
   containerPort: 5000
 
 service:
-  name: atharva-service1
+  name: pratik-service
   port: 5000
   targetPort: 5000
   type: LoadBalancer
 
 configMap:
-  name: atharva-config1
+  name: pratik-config
   data:
     APP_NAME: "Hospital-App"
     APP_PORT: "5000"
 
 secret:
-  name: atharva-secret1
+  name: pratik-secret
   type: Opaque
   data:
     DB_USER: YWRtaW4=
