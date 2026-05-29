@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 
 metadata:
-  name: atharva-service
+  name: pratik-service
 
 spec:
   type: LoadBalancer
